@@ -1,16 +1,74 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<h1>Product Manager React App</h1>
+<p>A clean and responsive <strong>Product Management application</strong> built using
+      <strong>React with Vite</strong>. This app allows users to manage products with add,
+      edit, delete, search, and view toggle functionality.
+      All data is stored locally using browser <strong>localStorage</strong>.
+      No backend or API integration is required.
+    </p>
+    <h2>Features</h2>
+    <ul>
+        <li>Display products on the home page</li>
+        <li>Toggle between List View (Table) and Card View (Grid)</li>
+        <li>Pagination enabled for List View only</li>
+        <li>Real-time product search by name</li>
+        <li>Add new products</li>
+        <li>Edit existing products</li>
+        <li>Delete products with confirmation</li>
+        <li>Form validation with error messages</li>
+        <li>Data persistence using localStorage</li>
+        <li>Responsive and user-friendly UI</li>
+      </ul>
+      <h2>Tech Stack</h2>
+      <ul>
+        <li>React 18</li>
+        <li>Vite</li>
+        <li>JavaScript (ES6+)</li>
+        <li>CSS</li>
+        <li>UUID for unique product IDs</li>
+        <li>Browser localStorage</li>
+      </ul>
+      <h2>Product Fields</h2>
+      <ul>
+        <li><strong>Name</strong> (required)</li>
+        <li><strong>Price</strong> (number, required)</li>
+        <li><strong>Category</strong> (required)</li>
+        <li><strong>Stock</strong> (number)</li>
+        <li><strong>Description</strong> (optional)</li>
+      </ul>
+      <h2>Installation and Setup</h2>
+      <h3>Step 1: Clone the repository</h3>
+      <pre>git clone &lt;your-repository-url&gt; cd product-manager</pre>
+      <h3>Step 2: Install dependencies</h3>
+      <pre>npm install</pre>
+      <h3>Step 3: Start the development server</h3>
+      <pre>npm run dev</pre>
+      <p>
+        Open your browser and visit:
+        <code>http://localhost:5173</code>
+      </p>
+      <h2>Usage</h2>
+      <ol>
+        <li>Add a product using the form</li>
+        <li>Switch between list and card views</li>
+        <li>Search products in real time</li>
+        <li>Edit or delete products</li>
+        <li>Refresh the page to confirm data persistence</li>
+      </ol>
+      <h2>Future Enhancements</h2>
+      <ul>
+        <li>Sorting by price, stock, or category</li>
+        <li>Infinite scroll for card view</li>
+        <li>Export product list as CSV</li>
+        <li>Dark mode support</li>
+        <li>TypeScript conversion</li>
+      </ul>
+      <p>
+        <strong>Author:</strong> Abhishek Vishwakarma<br />
+        MERN Stack Developer
+      </p>
+      <p>
+        GitHub:
+        <a href="https://github.com/Abhi1001001" target="_blank">
+          https://github.com/Abhi1001001
+        </a>
+      </p>
