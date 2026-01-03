@@ -5,6 +5,7 @@
       All data is stored locally using browser <strong>localStorage</strong>.
       No backend or API integration is required.
     </p>
+    <a src="https://product-view-manager.netlify.app/">https://product-view-manager.netlify.app/</a>
     <h2>Features</h2>
     <ul>
         <li>Display products on the home page</li>
@@ -37,7 +38,7 @@
       </ul>
       <h2>Installation and Setup</h2>
       <h3>Step 1: Clone the repository</h3>
-      <pre>git clone &lt;your-repository-url&gt; cd product-manager</pre>
+      <pre>git clone &lt;https://github.com/Abhi1001001/product-manager.git&gt; cd product-manager</pre>
       <h3>Step 2: Install dependencies</h3>
       <pre>npm install</pre>
       <h3>Step 3: Start the development server</h3>
