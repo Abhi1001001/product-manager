@@ -5,7 +5,7 @@
       All data is stored locally using browser <strong>localStorage</strong>.
       No backend or API integration is required.
     </p>
-    <a src="https://product-view-manager.netlify.app/">https://product-view-manager.netlify.app/</a>
+    <a href="https://product-view-manager.netlify.app/">https://product-view-manager.netlify.app/</a>
     <h2>Features</h2>
     <ul>
         <li>Display products on the home page</li>
